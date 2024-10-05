@@ -1,14 +1,12 @@
-# Welcome to your CDK TypeScript project
+# 開発環境の準備
 
-This is a blank project for CDK development with TypeScript.
+## 最新の python の環境を用意する
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+```
+python -m venv .venv
+source .venv/bin/activate
+```
 
-## Useful commands
+# 参考文献
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+- https://qiita.com/tkmz/items/ab0954cd9a70594bb88b
